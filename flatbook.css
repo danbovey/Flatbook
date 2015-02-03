@@ -19,7 +19,7 @@
   top: 11px;
   width: auto !important;
   margin-left: 141px;
-  margin-right: 200px; }
+  margin-right: 158px; }
 
 /* Logo */
 ._5lus {
@@ -33,6 +33,13 @@
   font-size: 21px;
   color: #FFF;
   cursor: pointer; }
+
+/* Borders */
+._2wnm._56lq {
+  position: relative !important;
+  top: -21px !important;
+  height: 64px !important;
+  border-right: 1px solid #334e85 !important; }
 
 .sidebarMode ._uaw {
   padding-right: 0 !important; }
