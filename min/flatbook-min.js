@@ -1,1 +1,1 @@
-$(function(){});
+$(function(){$("._uaw").prepend('<button id="flatbook-hamburger">☰</button>')});
