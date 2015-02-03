@@ -7,7 +7,7 @@
 
   "author": "Dan Bovey & Dafz Thomas",
   "content_scripts": [ {
-    "css": [ "flatbook.css" ],
+    "css": [ "flatbook.css", "chatSidebar.css" ],
     "js": [ "jquery-2.1.3.min.js", "flatbook.js" ],
     "matches": [ "http://*.facebook.com/*", "https://*.facebook.com/*"]
   }],
