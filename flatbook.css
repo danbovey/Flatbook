@@ -121,10 +121,6 @@ html ._5t_y ._2wr, html ._5p3y ._5t_y ._2wr {
 ._5p3y ._5pbx {
   padding: 0 30px !important; }
 
-.fbChatSidebar {
-  width: 295px !important;
-  top: 64px !important; }
-
 #pagelet_ticker {
   display: none !important; }
 
@@ -164,7 +160,9 @@ html ._5t_y ._2wr, html ._5p3y ._5t_y ._2wr {
 .fbChatSidebar {
   border-left-color: #E2E2E2 !important;
   top: 22px !important;
-  height: 96% !important; }
+  height: calc(100% - 64px) !important;
+  width: 295px !important;
+  top: 64px !important; }
 
 .fbSidebarGripper {
   display: none !important; }
