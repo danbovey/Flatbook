@@ -140,6 +140,9 @@ html ._5t_y ._2wr, html ._5p3y ._5t_y ._2wr {
 .fbChatSidebar ._5q88.fbChatTypeahead .textInput {
   padding: 20px 0 20px 30px !important; }
 
+.uiScrollableAreaWrap {
+  padding-top: 18px !important; }
+
 ._51mz input:focus {
   background: #FFF !important; }
 
@@ -164,7 +167,7 @@ html ._5t_y ._2wr, html ._5p3y ._5t_y ._2wr {
   height: 96% !important; }
 
 .fbSidebarGripper {
-  border: none !important; }
+  display: none !important; }
 
 /* Translations */
 ._48gf.fbDockWrapper.fbDockWrapperRight._5q5b {
