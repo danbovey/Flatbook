@@ -33,6 +33,9 @@
 	width: 90% !important;
 	padding: 15px 20px !important;
 	float: none !important;
+	&:first-child {
+		padding-top: 37px !important;
+	}
 }
 
 ._5pr2 ._4oes{
@@ -45,10 +48,8 @@
 
 .fbChatSidebar{
 	border-left-color: #E2E2E2 !important;
-	top: 22px !important;
-	height: calc(100% - 64px) !important;
 	width: 295px !important;
-	top: 64px !important;
+	height: 100% !important;
 }
 
 .fbSidebarGripper{
