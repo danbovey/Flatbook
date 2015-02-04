@@ -12,10 +12,10 @@
     "matches": [ "http://*.facebook.com/*", "https://*.facebook.com/*"]
   }],
   "permissions": ["tabs"],
-  "short_name": "Flatbook"
+  "short_name": "Flatbook",
 
   "options_ui": {
     "page": "options.html",
     "chrome_style": true
-  },
+  }
 }
