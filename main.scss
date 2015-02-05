@@ -17,12 +17,12 @@
 }
 
 /* Header content */
-._5vb_ ._uaw {
-	position: relative;
-	top: 11px;
+._uaw {
+	position: relative !important;
+	top: 11px !important;
 	width: auto !important;
-	margin-left: 141px;
-	margin-right: 158px;
+	margin-left: 141px !important;
+	margin-right: 158px !important;
 }
 
 /* Logo */
@@ -74,7 +74,7 @@
 
 	/* Left column */
 	._5vb_.hasLeftCol #leftCol {
-		display: none;
+		display: none !important;
 	}
 
 	/* Main column */
@@ -100,8 +100,8 @@
 		margin: 0 !important;
 	}
 	._5t_y ._51z7 {
-		position: relative;
-		top: -9px;
+		position: relative !important;
+		top: -9px !important;
 	}
 	html ._5t_y ._2wr, html ._5p3y ._5t_y ._2wr {
 		top: 30px !important;
@@ -133,14 +133,14 @@
 	}
 
 	._6m7 {
-		overflow: hidden;
-		text-overflow: ellipsis;
-		display: inline-block;
-		line-height: 16px;
-		max-width: 75%;
-		max-height: 16px;
-		-webkit-line-clamp: 2;
-		-webkit-box-orient: vertical;
+		overflow: hidden !important;
+		text-overflow: ellipsis !important;
+		display: inline-block !important;
+		line-height: 16px !important;
+		max-width: 75% !important;
+		max-height: 16px !important;
+		-webkit-line-clamp: 2 !important;
+		-webkit-box-orient: vertical !important;
 	}
 
 	._59ap ._59tj {
@@ -160,5 +160,5 @@
 
 /* Footer */
 .rhcFooterWrap {
-	text-align: center;
+	text-align: center !important;
 }
