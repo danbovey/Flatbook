@@ -154,11 +154,47 @@
 	._5p3y ._5pbx {
 		padding: 0 30px !important;
 	}
+	
+	/* Right Column */
+	#rightCol {
+		position: relative !important;
+		left: 12px !important;
+		width: 315px !important;
+	}
 
-@import "chatSidebar";
-@import "messages";
+	._5rzs._5v6d ._5v6e {
+		box-sizing: border-box !important;
+		width: 100% !important;
+	}
+
+	.cardRightCol {
+		box-sizing: border-box !important;
+		width: 100% !important;
+	}
+
+	.uiHeaderTop .uiHeaderTitle, .uiHeader.uiSideHeader h6 {
+		text-transform: none !important;
+	}
+
+	._2w2e {
+		font-size: 12px !important;
+	}
+
+	/* Trending list */
+	._5my2 {
+		padding: 10px 4px !important;
+	}
+
+/* Avatar */
+._5v9u:after, ._56p9:after {
+	border: none !important;
+}
 
 /* Footer */
 .rhcFooterWrap {
 	text-align: center !important;
 }
+
+@import "chatSidebar";
+@import "messages";
+@import "pages";

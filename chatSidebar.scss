@@ -31,10 +31,10 @@
 
 ._554m, ._42fz{
 	width: 90% !important;
-	padding: 15px 20px !important;
+	padding: 5px 20px !important;
 	float: none !important;
 	&:first-child {
-		padding-top: 37px !important;
+		padding-top: 32px !important;
 	}
 }
 
@@ -43,7 +43,12 @@
 }
 
 ._55ln{
-	padding: 10px 20px;
+	height: 40px !important;
+	padding: 7px 20px !important;
+	line-height: 40px !important;
+	&:hover {
+		border-color: transparent !important;
+	}
 }
 
 .fbChatSidebar{
@@ -64,4 +69,19 @@
 /* Chat Popups */
 .sidebarMode ._48gf {
 	right: 310px !important;
+}
+
+._55lt img {
+	width: 40px !important;
+	height: 40px !important;
+}
+
+._55lr {
+	padding-left: 20px !important;
+	font-size: 13px !important;
+	font-weight: 100 !important;
+}
+
+._5bon {
+	line-height: 40px !important;
 }
