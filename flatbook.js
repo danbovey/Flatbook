@@ -2,6 +2,10 @@ $(function() {
 	// Insert hamburger menu
 	$('._uaw').prepend('<button id="flatbook-hamburger">☰</button>');
 
+	$('body').on('click', '#flatbook-hamburger', function(e) {
+		e.preventDefault();
+	});
+
 	// Move media above user content
 	$('._4-u2').each(function() {
 		$(this).find('.mtm').prependTo(this);
