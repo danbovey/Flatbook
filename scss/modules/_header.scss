@@ -1,0 +1,41 @@
+// Blue header bar
+._4f7n {
+	height: 60px !important;
+	border-bottom: none !important;
+	box-shadow: none !important;
+	background: $primary !important;
+
+}
+
+// Blue header bar container
+._uaw {
+	width: auto !important;
+	max-width: $grid-width !important;
+	padding-top: 9px !important;
+	padding-right: 0 !important;
+
+	// Search background
+	.__wu .uiTypeahead {
+		background: none !important;
+	}
+
+	// Search input
+	#q {
+		color: #FFF !important;
+
+		&::-webkit-input-placeholder {
+			color: $searchplaceholder;
+		}
+	}
+
+	// Search button
+	#u_0_a button {
+		display: none !important;
+	}
+
+	// Profile, Home, Privacy links 
+	._3zm-, ._2pdh, #navPrivacy {
+		display: none !important;
+	}
+	
+}

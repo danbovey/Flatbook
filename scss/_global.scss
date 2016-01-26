@@ -1,0 +1,25 @@
+body {
+	background: $bodybg !important;
+}
+
+// Global container
+#globalContainer {
+	width: auto !important;
+	max-width: 940px !important;
+	margin-top: 19px !important;
+	padding-right: 0 !important;
+}
+
+// Main container
+#mainContainer {
+	// Left sidebar, Right sidebar
+	#leftCol, #rightCol {
+		display: none !important;
+	}
+
+	// Main content column
+	#contentCol {
+		margin-left: 0 !important;
+		padding-left: 0 !important;
+	}
+}

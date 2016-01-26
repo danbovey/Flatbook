@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name": "Flatbook",
+  "short_name": "Flatbook",
+  "description": "A flat design for Facebook",
+  "author": "Dan Bovey",
+  "version": "0.1",
+
+  // "icons": {
+  //   "16": "icon16.png",
+  //   "48": "icon48.png",
+  //   "128": "icon128.png"
+  // },
+
+  "permissions": [
+    "tabs",
+    "*://*.facebook.com/*"
+  ],
+
+  "content_scripts": [ {
+    "css": [ "css/flatbook.css" ],
+    // "js": [ "jquery-2.1.3.min.js", "flatbook.js" ],
+    "matches": [ "http://*.facebook.com/*", "https://*.facebook.com/*"],
+    "run_at" : "document_start"
+  }],
+
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  }
+}
