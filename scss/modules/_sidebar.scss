@@ -2,3 +2,22 @@
 #pagelet_sidebar {
 	display: none !important;
 }
+
+// Move the left sidebar to the right hand side
+#leftCol {
+	position: absolute !important;
+	top: 22px !important;
+	right: 0 !important;
+	padding: 0 !important;
+	width: 30% !important;
+	font-size: 13px !important;
+	background: #FFF !important;
+
+	#pagelet_navigation {
+		padding: 10px 20px !important;
+	}
+
+	.sideNavItem {
+		padding: 5px 0 !important;
+	}
+}

@@ -13,8 +13,7 @@ gulp.task('scss', function() {
 		.pipe(sass())
 		.pipe(sourcemaps.write())
 		.pipe(rename('flatbook.css'))
-		.pipe(gulp.dest('chrome/css'))
-		.pipe(notify("Compiled SCSS"));
+		.pipe(gulp.dest('chrome/css'));
 });
 
 gulp.task('default', function() {

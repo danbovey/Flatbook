@@ -1,0 +1,142 @@
+// News feed
+#contentArea {
+	margin-left: 80px !important;
+
+	// Post
+	._4-u8, ._5jmm {
+		margin-top: 30px !important;
+		border: none !important;
+		background: none !important;
+
+		._5puc ._4xev {
+			margin-right: 20px !important;
+		}
+	}
+
+	// Post Status
+	#pagelet_composer {
+		margin-top: 10px !important;
+		border: none !important;
+		background: #FFF !important;
+
+		._4-u8 {
+			margin-top: 0 !important;
+		}
+
+		._4d6h, ._1tm3 {
+			border: none !important;
+		}
+
+		._4cw, ._559p {
+			background: #FFF !important;
+		}
+
+		._5qtn ._5qtq {
+			display: none !important;
+		}
+
+		// My avatar
+		._5bsm ._mp3 {
+			position: absolute !important;
+			top: 0 !important;
+			left: -90px !important;
+			margin-top: 0 !important;
+
+			img {
+				width: 60px !important;
+				height: 60px !important;
+				border-radius: 50% !important;
+			}
+		}
+
+		.input {
+			padding-top: 10px !important;
+		}
+
+		._1dsp._42jz {
+			border-radius: 0 !important;
+		}
+	}
+
+	// Post inner
+	._5pbu {
+		position: static !important;
+	}
+
+	// Post top
+	._1dwg {
+		padding: 15px 25px 0 !important;
+		background: #FFF !important;
+
+		// Comments container
+		._5vsj {
+			position: relative !important;
+			left: -13px !important;
+			width: calc(100% + 26px) !important;
+		}
+	}
+
+	// Avatar
+	._5pb8 {
+		position: absolute !important;
+		top: 1px !important;
+		left: -80px !important;
+
+		img {
+			width: 60px !important;
+			height: 60px !important;
+			border: none !important;
+			border-radius: 50% !important;
+		}
+	}
+
+	//Avatar border
+	._38vo:after {
+		border: none !important;
+	}
+
+	// Post within post
+	._5pbu ._1dwg {
+		padding-left: 12px !important;
+		padding-right: 12px !important;
+	}
+
+	// Post meta
+	._5pcp {
+		// Public icon, privacy icon and circle separator
+		.uiStreamPrivacy, ._4f-9, span[role="presentation"] {
+			display: none !important;
+		}
+	}
+
+	// Post images
+	._2a2q, ._5cq3 {
+		overflow: hidden !important;
+		width: 444px !important;
+	}
+	// Media
+	.mtm {
+		overflow: hidden !important;
+	}
+
+	// Like section
+	._57w {
+		margin-top: 0 !important;
+		background: #FFF !important;
+
+		// Wrapper
+		._a7s {
+			margin: 0 25px !important;
+			padding: 10px 0 !important;
+			border: none !important;
+		}
+	}
+
+	// Post Placeholder
+	._2iwq {
+		background: #FFF !important;
+	}
+	._2iwq div {
+		background: $bodybg !important;
+	}
+}
