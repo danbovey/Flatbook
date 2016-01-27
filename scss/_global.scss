@@ -27,3 +27,8 @@ body {
 		padding-left: 0 !important;
 	}
 }
+
+// Chat sidebar and dock
+#pagelet_sidebar, #pagelet_dock {
+	display: none !important;
+}

@@ -1,7 +1,10 @@
-// News feed
-#contentArea {
+// News feed Content Area
+.newsFeedComposer #contentArea {
 	margin-left: 80px !important;
+}
 
+// General Content Area
+#contentArea {
 	// Post
 	._4-u8, ._5jmm {
 		margin-top: 30px !important;
@@ -119,7 +122,8 @@
 		overflow: hidden !important;
 	}
 	.uiScaledImageContainer {
-		width: 446px !important;
+		overflow: hidden !important;
+		max-width: 446px !important;
 	}
 
 	// Video
