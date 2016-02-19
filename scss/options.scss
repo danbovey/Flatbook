@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Pontano+Sans);
+@import "variables";
+
+* {
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+body{
+	background: $bodybg;
+}
+
+.row {
+	overflow: auto;
+	clear: left;
+	margin-top: 10px;
+}
+
+label, input, select, textarea {
+	width: 100%;
+	font-size: 1.2em;
+}
+
+label, .input {
+	float: left;
+	width: 50%;
+}
+
+.input {
+	text-align: right;
+}
+
+button {
+	padding: 0 16px;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+	background: #4E69A2;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+	line-height: 22px;
+	cursor: pointer;
+	color: #FFF;
+}
+
+.submit {
+	margin-top: 30px;
+	text-align: right;
+}
+
+#status {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	border-bottom: 2px solid #99D893;
+	padding: 8px 15px;
+	background: #ACE7A7;
+	transition: transform 0.2s ease-in-out;
+	transform: translateY(-100%);
+
+	&.active {
+		transform: translateY(0);
+	}
+}

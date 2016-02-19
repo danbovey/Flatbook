@@ -16,6 +16,11 @@
 		}
 	}
 
+	._4-u2.mvm._495i._4-u8 {
+		margin: 0 !important;
+		padding-bottom: 0 !important;
+	}
+
 	// Post Status
 	#pagelet_composer {
 		margin-top: 10px !important;
@@ -132,16 +137,19 @@
 	}
 
 	// Like section
+	._sa_ {
+		margin-top: 0 !important;
+		padding-top: 12px !important;
+		background: #FFF !important;
+	}
 	._57w {
 		margin-top: 0 !important;
 		background: #FFF !important;
-
-		// Wrapper
-		._a7s {
-			margin: 0 25px !important;
-			padding: 10px 0 !important;
-			border: none !important;
-		}
+	}
+	._a7s {
+		margin: 0 25px !important;
+		padding: 10px 0 !important;
+		border: none !important;
 	}
 
 	// Post Placeholder
